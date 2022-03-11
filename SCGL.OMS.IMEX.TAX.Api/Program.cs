@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api
+namespace SCGL.OMS.IMEX.TAX.Api
 {
     public class Program
     {

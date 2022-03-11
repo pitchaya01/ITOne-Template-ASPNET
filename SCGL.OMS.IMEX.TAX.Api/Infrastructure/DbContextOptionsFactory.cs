@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Infrastructure
+namespace SCGL.OMS.IMEX.TAX.Api.Infrastructure
 {
     public class DbContextOptionsFactory
     {

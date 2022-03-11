@@ -1,12 +1,12 @@
 ﻿
-using SCGL.EDOC.Api.Model.Proxy.Master;
-using SCGL.EDOC.Api.Proxy.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Model.Proxy.Master;
+using SCGL.OMS.IMEX.TAX.Api.Proxy.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Proxy
+namespace SCGL.OMS.IMEX.TAX.Api.Proxy
 {
     public class MasterProxy : IMasterProxy
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Model.Document
+namespace SCGL.OMS.IMEX.TAX.Api.Model.Document
 {
     public class DocumentModel
     {

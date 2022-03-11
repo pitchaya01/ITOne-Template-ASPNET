@@ -3,17 +3,17 @@ using Lazarus.Common.EventMessaging;
 using Lazarus.Common.Model;
 using MediatR;
 using SCGL.Common.EventMessaging.Command;
-using SCGL.EDOC.Api.Domain;
-using SCGL.EDOC.Api.Model.Document;
-using SCGL.EDOC.Api.Proxy.Interface;
-using SCGL.EDOC.Api.Repository.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Domain;
+using SCGL.OMS.IMEX.TAX.Api.Model.Document;
+using SCGL.OMS.IMEX.TAX.Api.Proxy.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Repository.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Application.Command
+namespace SCGL.OMS.IMEX.TAX.Api.Application.Command
 {
     public class SaveDocumentCommandHandler : IRequestHandler<SaveDocumentCommand, DocumentModel>
     {

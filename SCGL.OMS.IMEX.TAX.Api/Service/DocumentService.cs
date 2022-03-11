@@ -1,11 +1,11 @@
-﻿using SCGL.EDOC.Api.Repository.Interface;
-using SCGL.EDOC.Api.Service.Interface;
+﻿using SCGL.OMS.IMEX.TAX.Api.Repository.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Service
+namespace SCGL.OMS.IMEX.TAX.Api.Service
 {
     public class DocumentService : IDocumentService
     {

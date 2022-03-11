@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Controllers
+namespace SCGL.OMS.IMEX.TAX.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

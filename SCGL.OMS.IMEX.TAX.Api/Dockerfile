@@ -7,11 +7,11 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS build
 WORKDIR /src
-COPY ["SCGL.EDOC.API/SCGL.EDOC.API.csproj", "SCGL.EDOC.API/"]
+COPY ["SCGL.OMS.IMEX.TAX.Api/SCGL.OMS.IMEX.TAX.Api.csproj", "SCGL.OMS.IMEX.TAX.Api/"]
 COPY ["SCGL.Common/Lazarus.Common.csproj", "SCGL.Common/"]
 RUN dotnet restore "SCGL.OMS.IMEX.TAX.Api/SCGL.OMS.IMEX.TAX.Api.csproj"
 COPY . .
-WORKDIR "/src/SCGL.EDOC.API"
+WORKDIR "/src/SCGL.OMS.IMEX.TAX.Api"
 RUN dotnet build "SCGL.OMS.IMEX.TAX.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish

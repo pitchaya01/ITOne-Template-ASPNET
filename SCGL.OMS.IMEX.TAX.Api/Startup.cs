@@ -22,10 +22,10 @@ using Autofac.Extensions.DependencyInjection;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Lazarus.Common.Utilities;
-using SCGL.EDOC.Api.Infrastructure;
+using SCGL.OMS.IMEX.TAX.Api.Infrastructure;
 using Lazarus.Common.Nexus.Database;
 
-namespace SCGL.EDOC.Api
+namespace SCGL.OMS.IMEX.TAX.Api
 {
     public class Startup
     {

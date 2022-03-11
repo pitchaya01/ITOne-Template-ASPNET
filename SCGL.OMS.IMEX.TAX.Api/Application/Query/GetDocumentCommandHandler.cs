@@ -2,17 +2,17 @@
 using Lazarus.Common.Utilities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using SCGL.EDOC.Api.Domain;
-using SCGL.EDOC.Api.Infrastructure;
-using SCGL.EDOC.Api.Model.Document;
-using SCGL.EDOC.Api.Repository.Interface;
-using SCGL.EDOC.Api.Service.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Domain;
+using SCGL.OMS.IMEX.TAX.Api.Infrastructure;
+using SCGL.OMS.IMEX.TAX.Api.Model.Document;
+using SCGL.OMS.IMEX.TAX.Api.Repository.Interface;
+using SCGL.OMS.IMEX.TAX.Api.Service.Interface;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Application.Query
+namespace SCGL.OMS.IMEX.TAX.Api.Application.Query
 {
     public class GetDocumentCommandHandler : IRequestHandler<GetDocumentCommand, List<DocumentModel>>
     {

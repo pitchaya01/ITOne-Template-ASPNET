@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Domain
+namespace SCGL.OMS.IMEX.TAX.Api.Domain
 {
     public class GROUP_DOCUMENT
     {

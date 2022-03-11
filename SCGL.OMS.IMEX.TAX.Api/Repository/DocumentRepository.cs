@@ -1,12 +1,12 @@
-﻿using SCGL.EDOC.Api.Domain;
-using SCGL.EDOC.Api.Infrastructure;
-using SCGL.EDOC.Api.Repository.Interface;
+﻿using SCGL.OMS.IMEX.TAX.Api.Domain;
+using SCGL.OMS.IMEX.TAX.Api.Infrastructure;
+using SCGL.OMS.IMEX.TAX.Api.Repository.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Repository
+namespace SCGL.OMS.IMEX.TAX.Api.Repository
 {
     public class DocumentRepository : RepositoryBase<DOCUMENT>, IDocumentRepository
     {

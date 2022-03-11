@@ -3,15 +3,15 @@ using Lazarus.Common.Model;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SCGL.EDOC.Api.Application.Command;
-using SCGL.EDOC.Api.Application.Query;
-using SCGL.EDOC.Api.Model.Document;
+using SCGL.OMS.IMEX.TAX.Api.Application.Command;
+using SCGL.OMS.IMEX.TAX.Api.Application.Query;
+using SCGL.OMS.IMEX.TAX.Api.Model.Document;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Controllers
+namespace SCGL.OMS.IMEX.TAX.Api.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

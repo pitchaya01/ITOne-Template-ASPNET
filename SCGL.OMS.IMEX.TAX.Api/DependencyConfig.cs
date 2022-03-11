@@ -11,18 +11,18 @@ using Lazarus.Common.Utilities;
 using Lazarus.Common.Validator;
 using MediatR;
 using MediatR.Pipeline;
-using SCGL.EDOC.Api.Application.Query;
-using SCGL.EDOC.Api.Infrastructure;
-using SCGL.EDOC.Api.Proxy;
-using SCGL.EDOC.Api.Repository;
-using SCGL.EDOC.Api.Service;
+using SCGL.OMS.IMEX.TAX.Api.Application.Query;
+using SCGL.OMS.IMEX.TAX.Api.Infrastructure;
+using SCGL.OMS.IMEX.TAX.Api.Proxy;
+using SCGL.OMS.IMEX.TAX.Api.Repository;
+using SCGL.OMS.IMEX.TAX.Api.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api
+namespace SCGL.OMS.IMEX.TAX.Api
 {
     public class RegisterEventModule : Autofac.Module
     {

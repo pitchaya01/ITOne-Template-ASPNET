@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-namespace SCGL.EDOC.Api.Infrastructure { 
+namespace SCGL.OMS.IMEX.TAX.Api.Infrastructure { 
     public class DomainEventsDispatcherCommandHandlerDecorator<T, TResponse> : IRequestHandler<T, TResponse> where T : IRequest<TResponse>
     {
         private readonly IRequestHandler<T, TResponse> _decorated;

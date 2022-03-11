@@ -1,6 +1,6 @@
 using System;
 
-namespace SCGL.EDOC.Api
+namespace SCGL.OMS.IMEX.TAX.Api
 {
     public class WeatherForecast
     {

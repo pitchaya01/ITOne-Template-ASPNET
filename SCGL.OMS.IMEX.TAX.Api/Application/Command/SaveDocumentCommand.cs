@@ -1,11 +1,11 @@
 ﻿using MediatR;
-using SCGL.EDOC.Api.Model.Document;
+using SCGL.OMS.IMEX.TAX.Api.Model.Document;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Application.Command
+namespace SCGL.OMS.IMEX.TAX.Api.Application.Command
 {
     public class SaveDocumentCommand:IRequest<DocumentModel>
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Service.Interface
+namespace SCGL.OMS.IMEX.TAX.Api.Service.Interface
 {
     public interface IDocumentService
     {

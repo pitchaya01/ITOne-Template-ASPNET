@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SCGL.EDOC.Api.Domain;
+using SCGL.OMS.IMEX.TAX.Api.Domain;
 //using SCGL.SCM.Api.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Infrastructure
+namespace SCGL.OMS.IMEX.TAX.Api.Infrastructure
 {
     public class DbDataContext : DbContext
     {

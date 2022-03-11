@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace SCGL.EDOC.Api.Infrastructure
+namespace SCGL.OMS.IMEX.TAX.Api.Infrastructure
 {
     public class RepositoryBase<TEntity> : IDisposable, IRepositoryBase<TEntity> where TEntity : class
     {

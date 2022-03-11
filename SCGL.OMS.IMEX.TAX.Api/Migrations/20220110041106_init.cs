@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SCGL.EDOC.Api.Migrations
+namespace SCGL.OMS.IMEX.TAX.Api.Migrations
 {
     public partial class init : Migration
     {

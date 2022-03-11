@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SCGL.EDOC.Api.Infrastructure;
+using SCGL.OMS.IMEX.TAX.Api.Infrastructure;
 
-namespace SCGL.EDOC.Api.Migrations
+namespace SCGL.OMS.IMEX.TAX.Api.Migrations
 {
     [DbContext(typeof(DbDataContext))]
     [Migration("20220110041106_init")]
@@ -21,7 +21,7 @@ namespace SCGL.EDOC.Api.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SCGL.EDOC.Api.Domain.DOCUMENT", b =>
+            modelBuilder.Entity("SCGL.OMS.IMEX.TAX.Api.Domain.DOCUMENT", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -35,7 +35,7 @@ namespace SCGL.EDOC.Api.Migrations
                     b.ToTable("DOCUMENTS");
                 });
 
-            modelBuilder.Entity("SCGL.EDOC.Api.Domain.GROUP_DOCUMENT", b =>
+            modelBuilder.Entity("SCGL.OMS.IMEX.TAX.Api.Domain.GROUP_DOCUMENT", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()

@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using SCGL.EDOC.Api.Model.Document;
+using SCGL.OMS.IMEX.TAX.Api.Model.Document;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SCGL.EDOC.Api.Application.Query
+namespace SCGL.OMS.IMEX.TAX.Api.Application.Query
 {
     public class GetDocumentCommand:IRequest<List<DocumentModel>>
     {
